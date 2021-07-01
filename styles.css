@@ -1,0 +1,117 @@
+/* Main Header and Global Text Styles CSS*/
+body {
+    width: 100%;
+}
+
+.hero {
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Bold';
+    font-size: 100px;
+    border: 1px solid white;
+    background-image: url("hero.jpg");
+    height: 400px;
+    width: 100%;
+    position: relative;
+    padding: 50px 30px 50px 0;
+    background-position: center;
+ }
+
+h1 {
+        text-align: center;
+    color: #91605D;
+    font-weight: bold;
+    font-size: 50px;   
+    border: 2px solid #DFCBA4;  
+    font-family: "roboto";
+}
+
+.bold {
+        font-weight: bold;
+    }
+
+nav {
+   padding: 10px 30px;
+   background-color: #DFCBA4;
+   margin-right:60%;
+   border-radius: 5px;
+    margin-right: 80%;
+}
+nav * {
+    margin-right: 20px;
+    font-size: 20px;
+}
+nav *:hover {
+    background-color: #905D5D;
+    color: white;
+    background-size: contain;
+}
+
+/* Color Theory Section CSS */
+.color-panel {
+    display:  center inline-block;
+    margin: 0px 50px 20px;
+    padding: 20px 80px;
+   }
+
+.rose-taupe {
+background-color: #905D5D;
+}
+
+.tan {
+    background-color: #DFCBA4;
+}
+
+.mystic-View {
+    background-color: #CADEAF;
+}
+
+/* Fonts Section CSS*/
+.fonts {
+    margin-left: 60px;
+    margin-bottom: 30px;
+     width: 100%;
+  
+}
+.roboto, .roboto > p {
+    font-family: 'Roboto';
+}
+
+
+.lora-regular, .lora-regular > p {
+    font-family: "lora";
+} 
+.italic {
+    font-style: italic;
+}
+
+/* Style Use Case Section CSS */
+.styleH1 {
+    border: none;
+    color: #DFCBA4;
+}
+
+.styleH2 {
+    font-family: Lora;
+    margin-left: 60px;
+}
+.styleP {
+    font-family: Lora;
+    margin-bottom: 100px;
+    margin-left: 60px;
+}
+.accent {
+    background-color: maroon;
+}
+
+/* Footer Sectiong CSS*/
+
+.footer {
+    text-align: center;
+    font-family: 'roboto';
+    font-size: 2em;
+    color: white;
+    background-color: #DFCBA4;
+    margin: 0px 325px 10px;
+    padding-bottom: 5px;
+}
